@@ -23,7 +23,6 @@ export const  Hero = () => {
         <div  className="pt-12 pb-16 lg:pt-32 lg:pb-48 text-center">
       <motion.h1
         initial={{ opacity: 0, x: -100 }}
-        animate={{ opacity: 1, x: 0 }} 
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay:0.2 }}
 
@@ -37,16 +36,18 @@ export const  Hero = () => {
       <motion.div
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, delay: 0.4 }}
-      >
+        transition={{ duration: 0.8, delay: 0.4 }}>
+ 
         <Button size="lg">Learn More</Button>
+     
+   
       </motion.div>
     </div>
           <motion.div
           initial={{opacity:0, x:100}}
           whileInView={{opacity:1, x:0}}
-          transition={{duration:0.8, delay:0.4}}
-           className="relative">
+          transition={{duration:0.8, delay:0.2}}
+          className="relative">
             <Image
               src="/red-4wheler.png"
               alt="Red sports car"
@@ -55,6 +56,7 @@ export const  Hero = () => {
               className="object-cover"
               priority
             />
+        
           </motion.div>
         </div>
       </div>

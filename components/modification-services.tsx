@@ -32,14 +32,18 @@ export const ModificationServices = () => {
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1, delay:0.2}}
-             key={service.title} className="text-center">
+        key={service.title} className="text-center">
               <service.icon className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-white mb-4">{service.title}</h3>
               <p className="text-gray-400 mb-6">{service.description}</p>
               <Button variant="link" className="text-primary">
                 Learn More →
               </Button>
+            
             </motion.div>
+    
+  
+         
           ))}
         </div>
       </div>

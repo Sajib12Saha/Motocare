@@ -28,8 +28,10 @@ export const  HomeBlog = () => {
       <Button variant="default" >
         Learn More
       </Button>
-    </div>
+          </div>
   </motion.div>
+
+
 ))}
         </div>
       </div>

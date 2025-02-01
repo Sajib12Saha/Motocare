@@ -23,7 +23,7 @@ export const  Nav = () => {
   return (
     <nav className="bg-background/95 fixed w-full z-50 max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-20 w-full">
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.jpg"
@@ -47,8 +47,10 @@ export const  Nav = () => {
               Contact
             </Button>
           </div>
+
+          <div className="flex md:hidden items-center pr-2">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
-    <SheetTrigger className="flex items-center md:hidden pr-1"><Menu/></SheetTrigger>
+    <SheetTrigger className=""><Menu/></SheetTrigger>
     <SheetContent>
     <SheetHeader>
       <SheetTitle>Hey How are you?</SheetTitle>
@@ -62,6 +64,8 @@ export const  Nav = () => {
     </div>
   </SheetContent>
 </Sheet>
+          </div>
+         
         </div>
       </div>
     </nav>
