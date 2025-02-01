@@ -39,7 +39,7 @@ export const GoodCars = () => {
          
             </motion.div>
 
-            <motion.div initial={{opacity:0, x: 50}}
+            <motion.div initial={{opacity:0, x: 20}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1, delay:0.2}}
             className="rounded-lg p-6 flex flex-col items-center  w-full justify-center text-center">

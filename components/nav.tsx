@@ -48,7 +48,7 @@ export const  Nav = () => {
             </Button>
           </div>
 
-          <div className="flex md:hidden items-center pr-2">
+          <div className="flex md:hidden items-center  pl-2">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
     <SheetTrigger className=""><Menu/></SheetTrigger>
     <SheetContent>

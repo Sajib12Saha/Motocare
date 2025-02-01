@@ -5,7 +5,7 @@ export const ImageCanva = () => {
     return (
 <div className="py-10">
 
-<div className="relative flex items-center justify-center   md:space-x-[-120px] w-full">
+<div className="relative flex items-center justify-center   md:space-x-[-120px] w-full overflow-hidden">
   {/* Image 1 */}
   <motion.div initial={{opacity:0, rotate:-15, skewY:6, x:100}}
   whileInView={{opacity:1, rotate:-15, skewY:6, x:0}}

@@ -14,7 +14,8 @@ export const  HomeBlog = () => {
   initial={{opacity:0, y:100}}
   whileInView={{opacity:1, y:0}}
   transition={{duration:1, delay:0.2}}
-   key={index} className="bg-secondary rounded-lg overflow-hidden">
+
+   key={index} className="bg-secondary rounded-lg overflow-hidden ">
     <Image
       src={post.image || "/placeholder.svg"}
       alt={post.title}
