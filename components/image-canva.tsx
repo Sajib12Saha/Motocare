@@ -5,7 +5,7 @@ export const ImageCanva = () => {
     return (
 <div className="py-10">
 
-<div className="relative flex items-center justify-center   md:space-x-[-120px] w-full overflow-hidden">
+<div className="relative flex items-center justify-center  space-x-[-120px] w-full overflow-hidden">
   {/* Image 1 */}
   <motion.div initial={{opacity:0, rotate:-15, skewY:6, x:100}}
   whileInView={{opacity:1, rotate:-15, skewY:6, x:0}}
@@ -27,7 +27,7 @@ export const ImageCanva = () => {
   transition={{duration:1, delay:0.2}}
  className="relative  shadow-lg z-10">
     <Image
-      src="/canva/canva5.jpg"
+      src="/canva/canva3.jpg"
       alt="Car 2"
       width={320}
       height={420}
@@ -40,7 +40,7 @@ export const ImageCanva = () => {
   <motion.div initial={{opacity:0, rotate:-4, skewY:2, y:100}}
   whileInView={{opacity:1, rotate:-4, skewY:2, y:0}}
   transition={{duration:1, delay:0.2}}
-  className="relative  shadow-xl z-20">
+  className="relative  shadow-xl z-10">
     <Image
       src="/canva/canva4.jpg"
       alt="Car 3"
@@ -55,9 +55,9 @@ export const ImageCanva = () => {
   <motion.div initial={{opacity:0, rotate:10, skewY:-3, y:-100}}
   whileInView={{opacity:1, rotate:10, skewY:-3, y:0}}
   transition={{duration:1, delay:0.2}}
-  className="relative shadow-lg z-10">
+  className="relative left-10 shadow-lg z-20">
     <Image
-      src="/canva/canva3.jpg"
+      src="/canva/canva5.jpg"
       alt="Car 4"
       width={320}
       height={420}
