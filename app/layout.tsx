@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Motocare Shop",
   description: "Buy and modify  car in Motocare Shop",
+  icons:[
+    {url:"/logo.jpg", href:"/logo.jpg"}
+  ]
 };
 
 export default function RootLayout({
